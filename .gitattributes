@@ -1,0 +1,26 @@
+# .gitattributes
+
+# Mark specific JavaScript files or directories as 'vendored'
+# This tells GitHub's Linguist to ignore them for language statistics.
+
+# Example: If you have a 'dist' folder with compiled JavaScript files
+dist/** linguist-vendored
+
+# Example: If you have a 'build' folder with compiled JavaScript files
+build/** linguist-vendored
+
+# Example: If you have a specific legacy JavaScript file you don't want counted
+src/legacy-javascript-module.js linguist-vendored
+
+# If you have JavaScript files that are test fixtures and you want to exclude them
+# tests/fixtures/**/*.js linguist-vendored
+
+# You generally DO NOT need to add .ts or .tsx files here unless GitHub is severely
+# misidentifying them (which is highly unlikely for standard TypeScript files).
+# For instance, if for some reason GitHub thought your .ts files were a different language:
+# *.ts linguist-language=TypeScript
+# *.tsx linguist-language=TypeScript
+
+# Other common .gitattributes settings (unrelated to language detection, but often useful)
+# Normalize line endings to LF (Linux/macOS style) for all text files
+* text=auto eol=lf
