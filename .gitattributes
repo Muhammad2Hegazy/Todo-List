@@ -3,5 +3,5 @@
 *.tsx linguist-language=TypeScript
 
 # Optional: if you want to ignore counting JavaScript files
-*.js linguist-documentation
-*.jsx linguist-documentation
+*.js linguist-documentation=TypeScript
+*.jsx linguist-documentation=TypeScript
