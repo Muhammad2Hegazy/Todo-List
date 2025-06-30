@@ -1,7 +1,0 @@
-# Force linguist to detect TypeScript
-*.ts linguist-language=TypeScript
-*.tsx linguist-language=TypeScript
-
-# Optional: if you want to ignore counting JavaScript files
-*.js linguist-language=TypeScript
-*.jsx linguist-=TypeScript
