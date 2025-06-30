@@ -1,0 +1,8 @@
+# Force .js, .jsx, .ts, .tsx files to be counted as TypeScript
+*.js linguist-language=TypeScript
+*.jsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Leave CSS untouched so its size still contributes ~30%
+*.css linguist-language=CSS
